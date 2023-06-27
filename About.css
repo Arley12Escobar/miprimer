@@ -1,0 +1,203 @@
+body {
+  background-color: #64666e; /*gris*/
+  color: #fff;
+  font-family: 'Indie Flower', cursive;
+}
+/* Estilos para el encabezado */
+header {
+  background-color: #e51a4c;
+  padding: 18px;
+  border-radius: 0px;
+  text-align: center;
+  width: 100%;
+}
+
+h1 {
+  color: #fff;
+  font-size: px;
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
+}
+
+/* Estilos para la navegación */
+nav {
+  background-color: #e51a4c;
+  color: #333;
+  padding: 14px;
+  text-align: center;
+  border-radius: 18px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline;
+  margin-right: 10px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Estilos para las secciones */
+section {
+  margin-bottom: 8px;
+}
+
+h2 {
+  color: #fff;
+  font-size: 20px;
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
+}
+
+p {
+  color: #ffff;
+  font-size: 14px;
+  margin: 20px;
+}
+
+
+.fondo-logos {
+  background-color: #ffff;
+  border: #64666e;
+  border-radius: 18px;
+  padding: 9px;
+  text-align: center;
+}
+
+.survey-container {
+width: 500px;
+margin: auto;
+max-width: 1600px;
+flex-grow: 900px;
+padding: 20px;
+background-color: #dc134c;
+border: #fff;
+border-radius: 18px;
+}
+
+.survey-form {
+margin-top: 20px;
+}
+
+.question {
+margin-bottom: 15px;
+}
+
+.question p {
+margin-bottom: 5px;
+}
+
+button {
+margin-top: 20px;
+padding: 10px 20px;
+background-color: #64666e;
+color: #ffffff;
+border: none;
+border-radius: 10px;
+font-weight: bold;
+}
+
+
+h3 {
+color: #fff;
+font-family: 'Indie Flower', cursive;
+text-align: center;
+}
+
+
+.button-menu-toggle {
+  display: none;
+}
+
+.custom-button {
+  background-color: #b3193d; /* Rojo */
+  color: #ffffff; /* Texto blanco */
+  border: none; /* Sin borde */
+  border-radius: 24px; /* Borde redondeado */
+  padding: 10px 20px; /* Espaciado interior */
+  font-size: 16px; /* Tamaño de fuente */
+  cursor: pointer; /* Cambia el cursor al pasar por encima */
+  margin-bottom: 10px; /* Espaciado inferior */
+  text-align: center;
+}
+
+.custom-button:hover {
+  background-color: #dc134c; /* Rojo más oscuro */
+}
+
+.Boton {
+  text-align: center;
+}
+
+.video{
+  text-align: center;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: flex; /* Agregamos flexbox al contenedor principal */
+  flex-direction: column; /* Alineamos los elementos en columna */
+  align-items: center; /* Centramos los elementos horizontalmente */
+  text-align: center; /* Centramos el texto horizontalmente */
+}
+
+.small-image {
+  width: 160px;
+  margin-right: 10px; /* Agregamos un margen derecho para separar las imágenes */
+}
+
+.image-container {
+  display: flex; /* Agregamos flexbox al contenedor de las imágenes */
+  justify-content: center; /* Centramos las imágenes horizontalmente */
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.small-image {
+  width: 190px;
+  margin-right: 10px;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+footer {
+  margin-top: auto;
+  text-align: center;
+  background-color: #e51a4c;
+  padding: 10px;
+  width: 100%;
+}
+
+.greeting{
+  text-align: center;
+}

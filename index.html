@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="seccion 8.css">
+  <meta charset="UTF_8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mi Primer Página Web</title>
+  <style>
+    .small-image {
+      width: 60px;
+    }
+    </style>
+
+<!-- tituto de la paguina-->
+
+</head>
+<body>
+  <header>
+    <h1> Bienvenido a mi sitio web</h1>
+  </header> 
+
+ <!-- Barra de navegaciòn  -->
+
+  <div class="container-nav" role="navigation"> 
+    <nav class="navbar">
+      <ul class="nav-links">
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="about.html">Acerca de</a></li>
+        <li><a href="servicios.html">Servicios</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+      </ul>
+    </nav>
+    <button class="button-menu-toggle">Menú</button>
+  </div>
+
+<!-- Acerca de mi -->
+  <main>
+    <section>
+      <h2>Acerca de mí</h2>
+      <p>Hola, mi nombre es Arley Escobar. Soy un principiante de la programación y 
+        estoy empezando a estudiar programacion, para poder crear sitios web que sean 
+        visulamente atractivas.</p>
+      <p>Esta primer paguina es experimental, para tenerlo en cuenta, 
+        en este proceso aprendere JavaScript, CSS y HTML. Estos lenguajes nos ayudan para 
+        crar una base solida en el desarrollo web front-end</p>
+    </section>
+
+<!-- Video -->
+
+    <br>
+  <div class="video">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/I848HdWjLMo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+  </div>
+
+  <!-- Imagenes -->
+
+  <br>
+    <div class="fondo-logos">
+      <img src="JavaScript.jpg" alt="JavaScript" class="small-image">
+      <img src="Html.jpg" alt="Html" class="small-image">
+      <img src="Css.jpg" alt="Html" class="small-image">
+    </div>
+<br>
+
+<!-- Explicacion videos  -->
+
+<br>
+<p> HTML es el lenguaje de marcado estándar utilizado para crear la estructura y el contenido de las páginas web. Se utiliza para definir la estructura y el significado de los elementos en una página web, como encabezados, 
+  párrafos, enlaces, imágenes, formularios, etc. HTML utiliza etiquetas y atributos para etiquetar y organizar el contenido, lo que permite a los navegadores web interpretar y mostrar correctamente la información.
+</p>
+  <p>JavaScript:
+  JavaScript es un lenguaje de programación que se utiliza principalmente en el desarrollo web. A diferencia de HTML y CSS, que se centran en la estructura y la presentación de una página web, JavaScript se utiliza para agregar 
+  interactividad y funcionalidad dinámica a las páginas web. Con JavaScript, puedes controlar eventos, manipular elementos HTML, realizar cálculos, enviar y recibir datos del servidor, y mucho más. Es un lenguaje versátil que se ejecuta en el navegador del cliente.
+</p>
+  <p>CSS (Cascading Style Sheets):
+  CSS es un lenguaje de hojas de estilo utilizado para controlar el aspecto y la presentación de las páginas web. Permite definir el estilo visual de los elementos HTML, como el color, la fuente, el tamaño, el espaciado, el diseño y 
+  otros atributos de presentación. CSS funciona separando la estructura del contenido (definido en HTML) y su presentación (definida en CSS), lo que facilita la creación de diseños coherentes y la personalización de la apariencia de una página web sin tener que modificar el contenido HTML subyacente.
+</p>
+
+<!-- Boton con alerta -->
+
+<p>Te tengo una sorpresa da click aca</p>
+
+<Div class= "Boton">
+  <button onclick="showAlert()"aria-label="¡haz click aquì!" class="custom-button">¡Hazme click en mí!</button>
+
+
+<!-- Encuesta -->
+
+</Div>
+<br>
+
+    <div class="survey-container">
+      <h3>Encuesta de Satisfacción</h3>
+      <form class="survey-form">
+        <div class="question">
+          <p>1. ¿Te gustó el diseño de la página?</p>
+          <label>
+            <input type="radio" name="question1" value="yes">Sí
+          </label>
+          <label>
+            <input type="radio" name="question1" value="no">No
+          </label>
+        </div>
+        <div class="question">
+          <p>2. ¿Encontraste la información que buscabas?</p>
+          <label>
+            <input type="radio" name="question2" value="yes">Sí
+          </label>
+          <label>
+            <input type="radio" name="question2" value="no">No
+          </label>
+        </div>
+        <div class="question">
+          <p>3. ¿El sitio fue fácil de navegar?</p>
+          <label>
+            <input type="radio" name="question3" value="yes">Sí
+          </label>
+          <label>
+            <input type="radio" name="question3" value="no">No
+          </label>
+        </div>
+        <div class="question">
+          <p>4. ¿Qué mejorarías en la página?</p>
+          <textarea name="improvements" rows="4" cols="50"></textarea>
+        </div>
+        <div class="question">
+          <p>5. ¿Recomendarías este sitio web?</p>
+          <label>
+            <input type="radio" name="question5" value="yes">Sí
+          </label>
+          <label>
+            <input type="radio" name="question5" value="no">No
+          </label>
+        </div>
+        <div class="submit-container">
+          <button>Enviar</button>
+        </div>
+      </form>
+    </div>
+  </main>
+<br>
+
+<!-- Despedida -->
+
+<p><h2> Te recuerdo que puedes volver cuando quieras, aca siempre te esperaremos, ten un lindo dia.</h2></p>
+  <footer>
+    <p>© 2023 Arley Escobar. Todos los derechos reservados.</p>
+  </footer>
+
+  <script src="seccion 8.js"></script>
+</body>
+</html>
+
